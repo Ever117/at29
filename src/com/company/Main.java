@@ -4,37 +4,32 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Person person = new Person("John", 30);
-        //person.name = "John";
-        System.out.println(person.name);
-        System.out.println(person.age);
 
-        person.woAmI();
+        Array list = new Array (new int[]{-10, 10, 12, 16, 14, 128, 125, 130});
 
-        person.getAge();
-
-        Person person1 = person.getPerson();
-        System.out.println(person1 .name);
-
-
-       /* int i=0;
-        while (i <10) {
-            i++;
-
-                    if (i%2 == 0)
-                    {
-                        System.out.println(i);
-
-                    }
-
-*/
-            System.out.println(person1 .name);
+        list.printAllArray();
+        list.averageArray();
+        list.minimum();
+        list.maximum();
+        list.moduloOdd();
+        list.moduloEven();
+        list.evenKeys();
 
 
-        }
+
+        Array list2 = new Array();
+        list2.setArray(11); // here you need to specify the size of the needed array
+
+        list2.printAllArray();
+        list2.averageArray();
+        list2.minimum();
+        list2.maximum();
+        list2.moduloOdd();
+        list2.moduloEven();
+        list2.evenKeys();
+
 
 
     }
-
-
 }
+
