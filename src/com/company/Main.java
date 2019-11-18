@@ -8,7 +8,7 @@ public class Main {
         Array list = new Array (new int[]{-10, 10, 12, 16, 14, 128, 125, 130});
 
         list.printAllArray();
-        list.averageArray();
+//       list.averageArray();
         list.minimum();
         list.maximum();
         list.moduloOdd();
