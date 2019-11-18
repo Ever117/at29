@@ -18,7 +18,7 @@ public class Array {
     // Method for creating and filling an array
 
     public void setArray(int k) {
-       this.array1 = new int[k];
+        this.array1 = new int[k];
         System.out.print("Array is filled by next numbers: ");
         for (int i = 0; i < k; i++) {
             array1[i] = i;
